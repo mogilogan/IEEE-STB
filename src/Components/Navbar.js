@@ -27,24 +27,24 @@ const Navbar = () =>{
        
         <ul class="absolute  hidden text-gray-700 pt-4 group-hover:block">
           <li class="">
-            <a
+            <p
               class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
               
-              >AR 2021</a
+              >AR 2021</p
             >
           </li>
           <li class="">
-            <a
+            <p
               class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
               
-              >AR 2022</a
+              >AR 2022</p
             >
           </li>
           <li class="">
-            <a
+            <p
               class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
              
-              >AR 2023</a
+              >AR 2023</p
             >
           </li>
         </ul>
@@ -96,24 +96,24 @@ const Navbar = () =>{
           </button>
           <ul class="absolute  hidden text-gray-700 pl-36 group-hover:block">
             <li class="">
-              <a
+              <p
                 class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
-                >AR 2021</a
+                >AR 2021</p
               >
             </li>
             <li class="">
-              <a
+              <p
                 class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
-                >AR 2022</a
+                >AR 2022</p
               >
             </li>
             <li class="">
-              <a
+              <p
                 class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
-                >AR 2023</a
+                >AR 2023</p
               >
             </li>
           </ul></button>
