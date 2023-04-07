@@ -1,11 +1,11 @@
 import React from "react";
 
-const Events = () =>{
+const Home = () =>{
     return(
         <div>
-            <h1>Events</h1>
+            <h1>Home</h1>
         </div>
     )
 }
 
-export default Events;
+export default Home;

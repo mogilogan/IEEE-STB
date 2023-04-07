@@ -1,11 +1,11 @@
 import React from "react";
 
-const Members = () =>{
+const Wie = () =>{
     return(
         <div>
-            <h1>Members</h1>
+            <h1>WIE</h1>
         </div>
     )
 }
 
-export default Members;
+export default Wie;
