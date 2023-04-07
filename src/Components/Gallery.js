@@ -1,7 +1,6 @@
 import React from "react";
 import mogi from '../Components/assests/mem/mogi.JPG'
 
-import { ContentAnimation,FadeAnimation,CardHomeAnimation } from "../Animation";
 
 const Gallery = () =>{
     return(

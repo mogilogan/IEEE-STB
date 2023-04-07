@@ -29,21 +29,21 @@ const Navbar = () =>{
           <li class="">
             <a
               class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-              href="#"
+              
               >AR 2021</a
             >
           </li>
           <li class="">
             <a
               class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-              href="#"
+              
               >AR 2022</a
             >
           </li>
           <li class="">
             <a
               class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-              href="#"
+             
               >AR 2023</a
             >
           </li>

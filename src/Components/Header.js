@@ -2,7 +2,7 @@ import React from "react";
 import ptulogo from './assests/ptulogo.png'
 
 import ptustb from "./assests/ptustb.png";
-import ptustbm from "./assests/ptustbm.png";
+// import ptustbm from "./assests/ptustbm.png";
 
 const Header = () =>{
     return(
