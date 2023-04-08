@@ -1,6 +1,9 @@
 import React from "react";
 import mogi from '../Components/assests/mem/mogi.JPG'
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
 
 const Gallery = () =>{
     return(
@@ -18,6 +21,13 @@ const Gallery = () =>{
           </div>
         </div>
         </div>
+        <Zoom>
+    <img
+      alt="That Wanaka Tree, New Zealand by Laura Smetsers"
+      src={mogi}
+      width="500"
+    />
+  </Zoom>
         </div>
     )
 }

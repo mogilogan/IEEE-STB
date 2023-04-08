@@ -10,6 +10,11 @@ module.exports = {
       xl: '1170px',
     },
     extend: {
+      keyframes:{
+
+        
+
+      },
       boxShadow: {
         'light-neumorphism-2xl': '-12px -12px 24px rgba(255, 255, 255, 1), 12px 12px 24px rgba(206, 212, 219, 1)',
         'light-neumorphism-xl': '-9px -9px 18px rgba(255, 255, 255, 1), 9px 9px 18px rgba(200, 207, 216, 0.9)',
@@ -51,6 +56,8 @@ module.exports = {
           '0%': { transform: 'translateX(100vw)' },
           '100%': { transform: 'translateX(-100vw)' },
         },
+
+        
       },
     },
   },

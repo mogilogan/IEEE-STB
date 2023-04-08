@@ -12,6 +12,7 @@ import Home from './Components/Home';
 import Annualr from './Components/Annualr';
 import Gallery from './Components/Gallery';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/gallery' element={<Gallery/>} />
         <Route exact path='/contact-us' element={<Contact/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
