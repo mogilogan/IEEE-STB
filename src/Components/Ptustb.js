@@ -21,17 +21,63 @@ import srine from './assests/mem/srine.jpg';
 import tcadit from './assests/mem/tcadit.jpg';
 import thacha from './assests/mem/thacha.jpg';
 import mogi from './assests/mem/mogi.JPG';
+import mohan from './assests/mem/mohan.jpg';
+import vive from './assests/mem/vive.bmp';
 
 
 const Ptustb = () =>{
     return(
         <div>
+          <div className="bg-[url('../public/crop.gif')]  ">
             <p className="text-4xl pl-6 py-6">EXECUTIVE COMMITTEE</p>
             <div className="py-6">
-            <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l bg-blue-400  mx-auto rounded-2xl  overflow-hidden ">
+  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={mohan} alt="Sunset in the mountains"/>
+  <div class="px-4 py-4">
+    <div class="font-bold text-center text-xl mb-2">Vice-Chancellor</div>
+    <p class="text-gray-700 text-center  text-base">
+    Dr.S Mohan
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
+  </div>
+  <div class="px-6  pb-2">
+    <p> B.E., M.E., Ph.D., FNAE., FIE., FIPHE., FIWWA., FIASE.<br/>
+        xxxxyyyy@ptuniv.edu
+</p>
+  </div>
+</div>
+</div>
+
+
+<div className="py-6">
+            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
+  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={vive} alt="Sunset in the mountains"/>
+  <div class="px-4 py-4">
+    <div class="font-bold text-center text-xl mb-2">Dean</div>
+    <p class="text-gray-700 text-center  text-base">
+    Dr. K. Vivekanandan
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
+  </div>
+  <div class="px-6  pb-2">
+    <p> Professor CSE<br/>
+    k.vivekanandan@ptuniv.edu.in
+</p>
+  </div>
+</div>
+</div>
+
+
+
+<div className="py-6">
+            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={guna} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">University Coordinator and Branch Councillor</div>
+    <div class="font-bold text-center text-xl mb-2">Branch Councillor</div>
     <p class="text-gray-700 text-center  text-base">
     Dr. R. Gunasundari
     </p>
@@ -47,8 +93,11 @@ const Ptustb = () =>{
 </div>
 </div>
 
+<p className="text-4xl pl-6 py-6">ADIVISORY COMMITTEE</p>
+
+
 <div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={thacha} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Faculty Coordinator - Technical</div>
@@ -68,7 +117,7 @@ const Ptustb = () =>{
 
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={sanda} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Faculty Coordinator -Non Technical</div>
@@ -87,7 +136,7 @@ const Ptustb = () =>{
 </div>
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={anantha} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Faculty Coordinator - Administration</div>
@@ -109,7 +158,7 @@ const Ptustb = () =>{
 <p className="text-4xl pl-6 py-6">STUDENT BRANCH COMMITTEE</p>
 
 <div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={naveen} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Chair</div>
@@ -129,7 +178,7 @@ const Ptustb = () =>{
 
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={saipri} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Vice Chair</div>
@@ -148,7 +197,7 @@ const Ptustb = () =>{
 </div>
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={sivash} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Deputy chair</div>
@@ -168,8 +217,11 @@ const Ptustb = () =>{
 </div>
 
 
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+
+
+<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+
+    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={napps} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Secretary</div>
@@ -189,7 +241,7 @@ const Ptustb = () =>{
 
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={shivas} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Associate secretary</div>
@@ -208,7 +260,7 @@ const Ptustb = () =>{
 </div>
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={katto} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Treasurer</div>
@@ -225,11 +277,8 @@ const Ptustb = () =>{
 </p>
   </div>
 </div>
-</div>
 
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={mogi} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Webmaster</div>
@@ -248,8 +297,13 @@ const Ptustb = () =>{
 </div>
 
 
+</div>
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+
+<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+   
+
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={pravee} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Department Chair</div>
@@ -268,7 +322,7 @@ const Ptustb = () =>{
 </div>
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={muriki} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Section chair</div>
@@ -285,12 +339,8 @@ const Ptustb = () =>{
 </p>
   </div>
 </div>
-</div>
 
-
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={tcadit} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Students Activities Committee chair</div>
@@ -308,28 +358,7 @@ const Ptustb = () =>{
   </div>
 </div>
 
-
-
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={seevaran} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Section Students Representative</div>
-    <p class="text-gray-700 text-center  text-base">
-    Seevaranjinee
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99122931</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 2B<br/>
-    9629970007
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={seshan} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Regional students’ activity Committee chair</div>
@@ -346,31 +375,17 @@ const Ptustb = () =>{
 </p>
   </div>
 </div>
-</div>
 
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={nimal} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Regional Students Representative</div>
-    <p class="text-gray-700 text-center  text-base">
-    Nimal Vardhan
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99073299</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 2B<br/>
-    9677747762
-</p>
-  </div>
 </div>
 
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+
+
+
+<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+   
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={pranav} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Finance Committee Chair</div>
@@ -389,7 +404,7 @@ const Ptustb = () =>{
 </div>
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={srine} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Program Committee Chair</div>
@@ -406,11 +421,8 @@ const Ptustb = () =>{
 </p>
   </div>
 </div>
-</div>
 
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={kailash} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Publicity Committee Chair</div>
@@ -430,7 +442,7 @@ const Ptustb = () =>{
 
 
 
-<div class="max-w-[300px] min-w-[300px] hover:shadow-light-neumorphism-l  shadow-light-inner-neumorphism-xl mx-auto rounded-2xl  overflow-hidden shadow-lg">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={haris} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Membership Committee Chair</div>
@@ -447,8 +459,44 @@ const Ptustb = () =>{
 </p>
   </div>
 </div>
+</div>
 
+<div className="py-6 grid grid-cols-1  md:grid-cols-2 ">
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
+  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={seevaran} alt="Sunset in the mountains"/>
+  <div class="px-4 py-4">
+    <div class="font-bold text-center text-xl mb-2">Section Students Representative</div>
+    <p class="text-gray-700 text-center  text-base">
+    Seevaranjinee
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99122931</p>
+  </div>
+  <div class="px-6  pb-2">
+    <p>B.Tech, ECE 2B<br/>
+    9629970007
+</p>
+  </div>
+</div>
 
+<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
+  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={nimal} alt="Sunset in the mountains"/>
+  <div class="px-4 py-4">
+    <div class="font-bold text-center text-xl mb-2">Regional Students Representative</div>
+    <p class="text-gray-700 text-center  text-base">
+    Nimal Vardhan
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99073299</p>
+  </div>
+  <div class="px-6  pb-2">
+    <p>B.Tech, ECE 2B<br/>
+    9677747762
+</p>
+  </div>
+</div>
 
 </div>
 
@@ -457,6 +505,9 @@ const Ptustb = () =>{
 
 
 
+
+
+</div>
 
         </div>
     )
