@@ -13,9 +13,9 @@ const Navbar = () =>{
 
 <div className="hidden  md:block">
             <div class="flex justify-center rounded-lg text-lg" role="group">
-            <button onClick={()=>{navigate('/about',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
-    <button onClick={()=>{navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB</button>
-    <button onClick={()=>{navigate('/off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers & Members</button>
+            <button onClick={()=>{navigate('/',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
+    <button onClick={()=>{navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button>
+    <button onClick={()=>{navigate('/off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers</button>
     <button onClick={()=>{navigate('/wie',{replace:true})}}class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">WIE</button>
 
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
@@ -82,10 +82,10 @@ const Navbar = () =>{
     showSidebar ? "translate-x-0 " : "translate-x-full"
   }`}
 >
-<div className="pt-20"> 
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/about',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500  px-2 min-w-[160px] max-w-[1200px] py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">PTU IEEE STB</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/Off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">Office Bearers & Members</button>
+<div className="pt-[170px]  mx-auto"> 
+    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500  px-2 min-w-[160px] max-w-[1200px] py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
+    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">PTU IEEE SB & Members</button>
+    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/Off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">Office Bearers </button>
     <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/wie',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">WIE</button>
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline"> <button
           
@@ -94,7 +94,7 @@ const Navbar = () =>{
            
             </span>
           </button>
-          <ul class="absolute  hidden text-gray-700 pl-36 group-hover:block">
+          <ul class="absolute   hidden text-gray-700 pr-[80px] group-hover:block">
             <li class="">
               <p
                 class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"

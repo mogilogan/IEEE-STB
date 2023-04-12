@@ -1,8 +1,8 @@
 import React from "react";
-import wie1 from './assests/wie1.png';
-import wie2 from './assests/wie2.jpg';
-import wie3 from './assests/wie3.jpg';
-import { wiegrad } from "../data";
+import wie1 from '../assests/wie1.png';
+import wie2 from '../assests/wie2.jpg';
+import wie3 from '../assests/wie3.jpg';
+import { wiegrad } from "../../data";
 
 const Wie = () =>{
 

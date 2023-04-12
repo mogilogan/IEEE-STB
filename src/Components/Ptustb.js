@@ -1,515 +1,241 @@
 import React from "react";
 
-import guna from './assests/mem/guna.jpg';
-import anantha from './assests/mem/anantha.jpg';
-import haris from './assests/mem/haris.png';
-import kailash from './assests/mem/kailash.jpg';
-import katto from './assests/mem/katto.jpg';
-import muriki from './assests/mem/muriki.jpg';
-import napps from './assests/mem/napps.jpg';
-import naveen from './assests/mem/naveen.jpg';
-import nimal from './assests/mem/nimal.jpg';
-import pranav from './assests/mem/pranav.jpg';
-import pravee from './assests/mem/pravee.jpg';
-import saipri from './assests/mem/saipri.jpg';
-import sanda from './assests/mem/sanda.jpg';
-import sivash from './assests/mem/sivash.png';
-import seevaran from './assests/mem/seevaran.jpg';
-import seshan from './assests/mem/seshan.jpg';
-import shivas from './assests/mem/shivas.jpg';
-import srine from './assests/mem/srine.jpg';
-import tcadit from './assests/mem/tcadit.jpg';
-import thacha from './assests/mem/thacha.jpg';
-import mogi from './assests/mem/mogi.JPG';
-import mohan from './assests/mem/mohan.jpg';
-import vive from './assests/mem/vive.bmp';
+import { Stumemece,Facmemece,Gradmemece,Facmemeee,Facmemit } from "../memdata";
+
+
 
 
 const Ptustb = () =>{
+  const {list1}=Facmemece;
+  const {list2}=Facmemeee;
+  const {list3}=Facmemit;
+  const {list4}=Gradmemece;
+  const {list5}=Stumemece;
+
     return(
         <div>
-          <div className="bg-[url('../public/crop.gif')]  ">
-            <p className="text-4xl pl-6 py-6">EXECUTIVE COMMITTEE</p>
-            <div className="py-6">
-            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l bg-blue-400  mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={mohan} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Vice-Chancellor</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr.S Mohan
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.E., M.E., Ph.D., FNAE., FIE., FIPHE., FIWWA., FIASE.<br/>
-        xxxxyyyy@ptuniv.edu
+          <section
+      className='my-[5px] '
+      id="#About"
+      
+
+    >
+      <div className='container py-8 mx-auto'>
+        <div data-aos='fade-right' data-aos-delay='100' className=' bg-gradient-to-br  from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
+          <div className='flex-1 text-gray-100 '>
+            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-xl' >
+            IEEE PTU Student Branch 
+                        </h2>
+            <p
+              className='px-12  text-left mx-auto'
+            >
+The Student Branch of IEEE was started in Puducherry Technological University (PTU) (erstwhile Pondicherry Engineering College) in 1995. Since then, it has developed into a multifaceted student club on campus, organizing a wide variety of technical events for the benefit of students.
 </p>
-  </div>
-</div>
-</div>
-
-
-<div className="py-6">
-            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={vive} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Dean</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr. K. Vivekanandan
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> Professor CSE<br/>
-    k.vivekanandan@ptuniv.edu.in
-</p>
-  </div>
-</div>
-</div>
-
-
-
-<div className="py-6">
-            <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={guna} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Branch Councillor</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr. R. Gunasundari
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98322632</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> Professor ECE<br/>
-        gunasundari@ptuniv.edu
-</p>
-  </div>
-</div>
-</div>
-
-<p className="text-4xl pl-6 py-6">ADIVISORY COMMITTEE</p>
-
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={thacha} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Faculty Coordinator - Technical</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr. Thachayani Masilamani
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 90537393</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> Assistant Professor ECE<br/>
-    mthachayani@ptuniv.edu.in
-</p>
-  </div>
-</div>
-
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={sanda} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Faculty Coordinator -Non Technical</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr. R. Sandanalakshmi
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98323115</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> Assistant Professor ECE<br/>
-    sandanalakshmi@ptuniv.edu.in
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={anantha} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Faculty Coordinator - Administration</div>
-    <p class="text-gray-700 text-center  text-base">
-    Dr. A. V. Ananthalakshmi
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99122705</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> Assistant Professor ECE<br/>
-    anantha_av@ptuniv.edu.in
-</p>
-  </div>
-</div>
-</div>
-
-<p className="text-4xl pl-6 py-6">STUDENT BRANCH COMMITTEE</p>
-
-<div className="py-6 grid grid-cols-1 md:grid-cols-3">
-    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={naveen} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Naveen Kumar Pola
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98169412</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> PhD, ECE<br/>
-    9676104520
-</p>
-  </div>
-</div>
-
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={saipri} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Vice Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Sri Saipriya R
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98175228</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3B <br/>
-    9443949018
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={sivash} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Deputy chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Sivashree I
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98564188</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.Tech, ECE 3B<br/>
-    9751052991
-</p>
-  </div>
-</div>
-</div>
-
-
-
-
-<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
-
-    <div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={napps} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Secretary</div>
-    <p class="text-gray-700 text-center  text-base">
-    Nappinai
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98183300</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3A<br/>
-    7708162426
-</p>
-  </div>
-</div>
-
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={shivas} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Associate secretary</div>
-    <p class="text-gray-700 text-center  text-base">
-    Shiva Sai
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99197490</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3B<br/>
-    9444756840
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={katto} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Treasurer</div>
-    <p class="text-gray-700 text-center  text-base">
-    KATTOJU HEMANTH
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.Tech, ECE-3A  <br/>
-    9381897926
-</p>
-  </div>
-</div>
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={mogi} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Webmaster</div>
-    <p class="text-gray-700 text-center  text-base">
-     Moginder E
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3A<br/>
-    8778434982
-</p>
-  </div>
-</div>
-
-
-</div>
-
-
-<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
-   
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={pravee} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Department Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Praveene R
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98975997</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3B<br/>
-     8438778446 
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={muriki} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Section chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Krishna Teja Murikipudi
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: </p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.Tech, ECE 3A <br/>
-    9652224274
-</p>
-  </div>
-</div>
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={tcadit} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Students Activities Committee chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    T C Adityaa
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98174133</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3B<br/>
-    9944581729
-</p>
-  </div>
-</div>
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={seshan} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Regional students’ activity Committee chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Seshan
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99073238</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.Tech, ECE 2B <br/>
-    6385635310
-</p>
-  </div>
-</div>
-
-</div>
-
-
-
-
-
-
-<div className="py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
-   
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={pranav} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Finance Committee Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Pranav N
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99197603</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3B<br/>
-    7540046485
-</p>
-  </div>
-</div>
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={srine} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Program Committee Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Ra. Srinethe
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 98179516</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p> B.Tech, ECE 3B <br/>
-    6369127917
-</p>
-  </div>
-</div>
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={kailash} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Publicity Committee Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Kailash
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99151090</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 2A<br/>
-    6385687148
-</p>
-  </div>
-</div>
-
-
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={haris} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Membership Committee Chair</div>
-    <p class="text-gray-700 text-center  text-base">
-    Harshitha
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99197603</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 3A<br/>
-     9493188149
-</p>
-  </div>
-</div>
-</div>
-
-<div className="py-6 grid grid-cols-1  md:grid-cols-2 ">
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={seevaran} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Section Students Representative</div>
-    <p class="text-gray-700 text-center  text-base">
-    Seevaranjinee
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99122931</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 2B<br/>
-    9629970007
-</p>
-  </div>
-</div>
-
-<div class="max-w-[300px] min-w-[200px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-full h-[300px] rounded-tr-2xl rounded-tl-2xl" src={nimal} alt="Sunset in the mountains"/>
-  <div class="px-4 py-4">
-    <div class="font-bold text-center text-xl mb-2">Regional Students Representative</div>
-    <p class="text-gray-700 text-center  text-base">
-    Nimal Vardhan
-    </p>
-  </div>
-  <div class="px-6 pb-2">
-    <p className="bg-yellow-400 rounded-xl text-center"> Membership ID: 99073299</p>
-  </div>
-  <div class="px-6  pb-2">
-    <p>B.Tech, ECE 2B<br/>
-    9677747762
-</p>
-  </div>
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-</div>
-
+            <p
+              className='px-12 pt-4 text-left mx-auto'
+            >
+The Student Branch attempts to provide a platform for students from different branches and years to connect with each other and IEEE members from other colleges.
+</p>       
+
+<p className='px-12 pt-4 text-left mx-auto'>
+Student members have the choice to get involved in technical projects, presentations, website building and maintenance and non-technical aspects such as marketing, volunteering for IEEE events and networking with other student branches. Other IEEE student branch activities are to facilitate PTU students to participate in national and international conferences, workshops, project/design competitions, industrial visits and access to IEEE online resources.
+</p>      
+          </div>
         </div>
+
+
+{/* Faculty Members ECE */}
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS ECE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list1.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+{/* Faculty Members EEE */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS EEE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list2.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+{/* Faculty Members IT */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS IT</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list3.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+{/* Graduate Members ECE */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">GRADUATE MEMBERS ECE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list4.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+</tbody>
+</table>
+</div>
+
+
+{/* Student Members ECE */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">STUDENTS MEMBERS ECE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list5.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+      </div>
+    </section>
+    </div>
     )
 }
 
