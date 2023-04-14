@@ -13,8 +13,9 @@ const Navbar = () =>{
 
 <div className="hidden pt-10 md:block">
             <div class="flex justify-center rounded-lg text-lg" role="group">
-            <Link to="/"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>
-            <Link to="/pti-ieee-stb"><button class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button></Link>
+
+           <Link to="/"><button  class="bg-white md:py-[1.37rem] text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 lg:py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>
+            <Link to="/pti-ieee-stb"><button class="bg-white  text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button></Link>
             <Link to="off-members"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers</button></Link>
 
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
@@ -49,7 +50,7 @@ const Navbar = () =>{
         </ul>
       </button>
 
-    <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
+    <Link><button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
     
         
           <span class="mr-1">Annual Report
@@ -79,9 +80,9 @@ const Navbar = () =>{
             >
           </li></Link>
         </ul>
-      </button>
+      </button></Link>
       <Link to="/upcoming-events"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Upcoming Events</button></Link>
-    <Link to="/gallery"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Gallery</button></Link>
+    <Link to="/gallery"><button  class="bg-white md:py-[1.37rem] text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 lg:py-2 mx-0 outline-none focus:shadow-outline">Gallery</button></Link>
     <Link to="/contact-us"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
   </div>
         </div>

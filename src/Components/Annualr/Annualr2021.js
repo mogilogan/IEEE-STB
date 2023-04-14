@@ -1,30 +1,24 @@
 import React from "react";
 import annualr2021 from '../assests/annualr/annualr2021.pdf'
 
-// Plugins
 
-
-
-// Import the styles
 
 
 
 const Annualr2021 =()=>{
-  
 
     return(
         <div>
-            <h1>Annualr2021</h1>
+          
             <section
       className='my-[5px] '
       id="#About"
 
     >
       <div className='container py-8 mx-auto min-h-[600px]'>
-        <div className=' bg-white rounded-xl    pb-12 flex flex-col    '>
-            
-          <div className='flex-1 rounded-tr-xl rounded-tl-xl bg-gradient-to-br from-blue-600 to-blue-400 '>
-            <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-white te text-xl xt-md' >
+        <div className='  rounded-xl    pb-12 flex flex-col    '>
+          <div className='flex-1 rounded-tr-xl rounded-tl-xl  '>
+            <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-blue-800 te text-xl xt-md' >
             Annual Report 2021
             </h2>
             <div className="mx-auto">
@@ -34,6 +28,11 @@ const Annualr2021 =()=>{
         <p className="text-center"><a href={annualr2021} download="annual-report-2021.pdf" >Download</a></p>
         </div>
             </div>
+
+            <iframe height={600} width={600} className="mx-auto py-11" src={annualr2021}></iframe>
+
+          
+
 
           
         </div>

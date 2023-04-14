@@ -43,8 +43,25 @@ export const  Facmemece={
         {
             name:"Dr.S.Tamilselvan",
             department:"Associate Professor",
+            mid:"99273605"
+        },
+    ]
+}
+
+
+export const Facmemcse ={
+    list7:[
+        {
+            name:"Dr. K. Vivekanandan",
+            department:"Professor, EEE",
+            mid:"99275409"
+        },
+        {
+            name:"Dr.N.Sreenath",
+            department:"Professor, EEE",
             mid:""
         },
+    
     ]
 }
 

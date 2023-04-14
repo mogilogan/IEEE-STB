@@ -3,7 +3,7 @@ import React from "react";
 import main from './assests/sb/main.webp';
 import main2 from './assests/sb/main2.jpg';
 
-import { Stumemece,Facmemece,Gradmemece,Facmemeee,Facmemit } from "../memdata";
+import { Facmemcse,Stumemece,Facmemece,Gradmemece,Facmemeee,Facmemit } from "../memdata";
 
 
 
@@ -14,6 +14,7 @@ const Ptustb = () =>{
   const {list3}=Facmemit;
   const {list4}=Gradmemece;
   const {list5}=Stumemece;
+  const {list7}=Facmemcse;
 
     return(
         <div>
@@ -31,10 +32,9 @@ const Ptustb = () =>{
       <div className='container  py-8 mx-auto'>
 
         
-        <div className="grid grid-cols-3">
-        <img width={200} src={main}/>
-        <div data-aos='fade-right' data-aos-delay='100' className=' bg-gradient-to-br  from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
-          <div className='flex-1 text-gray-100 '>
+      <img className="mx-auto" width={400}  src={main2}/>
+        <div data-aos='fade-right' data-aos-delay='100' className=' bg-gradient-to-br   from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
+          <div className='flex-1  text-gray-100 '>
             <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-xl' >
             IEEE PTU Student Branch 
                         </h2>
@@ -53,8 +53,7 @@ The Student Branch attempts to provide a platform for students from different br
 Student members have the choice to get involved in technical projects, presentations, website building and maintenance and non-technical aspects such as marketing, volunteering for IEEE events and networking with other student branches. Other IEEE student branch activities are to facilitate PTU students to participate in national and international conferences, workshops, project/design competitions, industrial visits and access to IEEE online resources.
 </p>      
           </div>
-        </div>
-        <img  src={main}/>
+     
         </div>
 
 
@@ -74,6 +73,46 @@ Student members have the choice to get involved in technical projects, presentat
 <tbody className="text-center">
 
 {list1.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+
+
+{/* Faculty Members CSE */}
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS ECE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list7.map((feature ,index) => {
       // destructure feature
       const { name,department,mid } =
         feature;
