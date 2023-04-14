@@ -474,7 +474,7 @@ const Offbrs = () =>{
 </div>
 </div>
 
-<div className="py-6 grid grid-cols-1 gap-8   md:grid-cols-3 ">
+<div className="py-6 grid grid-cols-1 gap-8   md:grid-cols-2 lg:grid-cols-3 ">
 <div class="max-w-[250px] min-w-[250px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-[200px] h-[200px] mx-auto py-2 rounded-full" src={seevaran} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
@@ -499,7 +499,7 @@ const Offbrs = () =>{
  
 </div>
 
-<div class=" lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
+<div class="max-w-[250px] min-w-[250px] lg:min-w-[300px] hover:shadow-light-neumorphism-l  bg-blue-400 mx-auto rounded-2xl  overflow-hidden ">
   <img class="w-[200px] h-[200px] mx-auto py-2 rounded-full" src={nimal} alt="Sunset in the mountains"/>
   <div class="px-4 py-4">
     <div class="font-bold text-center text-xl mb-2">Regional Students Representative</div>

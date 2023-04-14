@@ -12,7 +12,7 @@ const About = () =>{
       <div className='container py-8 mx-auto'>
         <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1 text-gray-100 '>
-            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-blue-900 text-xl' >
+            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black  text-xl' >
             What is IEEE Student Branch?
             </h2>
             <p
@@ -39,14 +39,14 @@ An active IEEE Student Branch can be one of the most positive elements in a depa
 
     >
       <div className='container py-8 mx-auto'>
-        <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
+        <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col '>
           <div className='flex-1 text-gray-100 '>
-            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-blue-900 text-xl' >
+            <h2 className='h2 mb-10 px-4 pt-2  font-black text-blue-900 text-xl' >
                
             Why IEEE Student Branch is Advantageous? 
             </h2>
-            <p className='px-12  text-left mx-auto'>
-A Student Branch gives students the opportunity to meet and learn from fellow students, as well as faculty members and professionals in the field. An active IEEE Student Branch can be one of the most positive elements in a department of an university/ college offering programs in IEEE designated fields of Engineering, Computer Science and Information Technology and others as listed at http://www.ieee.org/web/membership/qualifications/qualifications.html.
+            <p className='px-12 text-justify<  text-left mx-auto'>
+A Student Branch gives students the opportunity to meet and learn from fellow students, as well as faculty members and professionals in the field. An active IEEE Student Branch can be one of the most positive elements in a department of an university/ college offering programs in IEEE designated fields of Engineering, Computer Science and Information Technology and others as listed at <a href="http://www.ieee.org/web/membership/qualifications/qualifications.html." className="text-yellow-500">here</a>
             </p>
             <p className='px-12 pt-4 text-left mx-auto'>
 IEEE Student Branches are established at over 1,500 universities and colleges throughout the world. Student Branch activities offer numerous educational, technical, and professional advantages of IEEE membership through special projects, activities, meetings, tours and field trips. 

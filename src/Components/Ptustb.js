@@ -1,5 +1,8 @@
 import React from "react";
 
+import main from './assests/sb/main.webp';
+import main2 from './assests/sb/main2.jpg';
+
 import { Stumemece,Facmemece,Gradmemece,Facmemeee,Facmemit } from "../memdata";
 
 
@@ -14,13 +17,22 @@ const Ptustb = () =>{
 
     return(
         <div>
+
+
+         
           <section
       className='my-[5px] '
       id="#About"
-      
-
+    
     >
-      <div className='container py-8 mx-auto'>
+
+
+
+      <div className='container  py-8 mx-auto'>
+
+        
+        <div className="grid grid-cols-3">
+        <img width={200} src={main}/>
         <div data-aos='fade-right' data-aos-delay='100' className=' bg-gradient-to-br  from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1 text-gray-100 '>
             <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-xl' >
@@ -41,6 +53,8 @@ The Student Branch attempts to provide a platform for students from different br
 Student members have the choice to get involved in technical projects, presentations, website building and maintenance and non-technical aspects such as marketing, volunteering for IEEE events and networking with other student branches. Other IEEE student branch activities are to facilitate PTU students to participate in national and international conferences, workshops, project/design competitions, industrial visits and access to IEEE online resources.
 </p>      
           </div>
+        </div>
+        <img  src={main}/>
         </div>
 
 

@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-import {useNavigate } from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
 
 
 const Navbar = () =>{
@@ -11,12 +11,43 @@ const Navbar = () =>{
         
 <>
 
-<div className="hidden  md:block">
+<div className="hidden pt-10 md:block">
             <div class="flex justify-center rounded-lg text-lg" role="group">
-            <button onClick={()=>{navigate('/',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
-    <button onClick={()=>{navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button>
-    <button onClick={()=>{navigate('/off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers</button>
-    <button onClick={()=>{navigate('/wie',{replace:true})}}class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">WIE</button>
+            <Link to="/"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>
+            <Link to="/pti-ieee-stb"><button class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button></Link>
+            <Link to="off-members"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers</button></Link>
+
+    <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
+    
+        
+          <span class="mr-1">WIE
+         
+          </span>
+       
+        <ul  class="absolute z-[9000] hidden text-gray-700 pt-4 group-hover:block">
+          <Link to="aboutwie"><li  class="">
+            <p
+              class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+              
+              >About WIE</p
+            >
+          </li></Link>
+          <Link to="vision"><li class="">
+            <p
+              class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+              
+              >Vision & Mission</p
+            >
+          </li></Link>
+          <Link to="/wiemem"> <li class="">
+            <p
+              class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+             
+              >Members</p
+            >
+          </li></Link>
+        </ul>
+      </button>
 
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
     
@@ -25,33 +56,33 @@ const Navbar = () =>{
          
           </span>
        
-        <ul class="absolute  hidden text-gray-700 pt-4 group-hover:block">
-          <li class="">
+        <ul class="absolute z-[9000] hidden text-gray-700 pt-4 group-hover:block">
+        <Link to="annual-r-2021"><li class="">
             <p
               class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
               
               >AR 2021</p
             >
-          </li>
-          <li class="">
+          </li></Link>
+          <Link to="annual-r-2022"><li class="">
             <p
               class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
               
               >AR 2022</p
             >
-          </li>
-          <li class="">
+          </li></Link>
+          <Link to="annual-r-2023"> <li class="">
             <p
               class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
              
               >AR 2023</p
             >
-          </li>
+          </li></Link>
         </ul>
       </button>
-    <button onClick={()=>{navigate('/upcoming-events',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Upcoming Events</button>
-    <button onClick={()=>{navigate('/gallery',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Gallery</button>
-    <button onClick={()=>{navigate('/contact-us',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button>
+      <Link to="/upcoming-events"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Upcoming Events</button></Link>
+    <Link to="/gallery"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Gallery</button></Link>
+    <Link to="/contact-us"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
   </div>
         </div>
         <div className="block md:hidden pt-10">
@@ -83,10 +114,41 @@ const Navbar = () =>{
   }`}
 >
 <div className="pt-[170px]  mx-auto"> 
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500  px-2 min-w-[160px] max-w-[1200px] py-2 mx-0 outline-none focus:shadow-outline">HOME</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/ptu-ieee-stb',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">PTU IEEE SB & Members</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/Off-members',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">Office Bearers </button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/wie',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">WIE</button>
+   <Link to="/"> <button onClick={()=>{setShowSidebar(!showSidebar);}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500  px-2 min-w-[160px] max-w-[1200px] py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>
+   <Link to="/ptu-ieee-stb"> <button onClick={()=>{setShowSidebar(!showSidebar);}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">PTU IEEE SB & Members</button></Link>
+   <Link to="/Off-members"><button onClick={()=>{setShowSidebar(!showSidebar);}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[160px] outline-none focus:shadow-outline">Office Bearers </button></Link>
+
+    <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline"> <button
+          
+          >
+            <span class="mr-1">WIE
+           
+            </span>
+          </button>
+          <ul class="absolute   hidden text-gray-700 pr-[80px] group-hover:block">
+          <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/aboutwie"><li class="">
+              <p
+                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                
+                >About WIE</p
+              >
+            </li></Link>
+            <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/vision"><li class="">
+              <p
+                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                
+                >VISION & MISSION</p
+              >
+            </li></Link>
+            <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/wiemem"><li class="">
+              <p
+                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                
+                >Members</p
+              >
+            </li></Link>
+          </ul></button>
+    
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline"> <button
           
           >
@@ -95,31 +157,31 @@ const Navbar = () =>{
             </span>
           </button>
           <ul class="absolute   hidden text-gray-700 pr-[80px] group-hover:block">
-            <li class="">
+          <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/annual-r-2021"> <li class="">
               <p
                 class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
                 >AR 2021</p
               >
-            </li>
-            <li class="">
+            </li></Link>
+            <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/annual-r-2022"><li class="">
               <p
                 class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
                 >AR 2022</p
               >
-            </li>
-            <li class="">
+            </li></Link>
+            <Link onClick={()=>{setShowSidebar(!showSidebar);}} to="/annual-r-2023"><li class="">
               <p
                 class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 
                 >AR 2023</p
               >
-            </li>
+            </li></Link>
           </ul></button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/upcoming-events',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Upcoming Events</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/gallery',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Gallery</button>
-    <button onClick={()=>{setShowSidebar(!showSidebar);navigate('/contact-us',{replace:true})}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 min-w-[160px] max-w-[1200px]  px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button>
+   <Link to='/upcoming-events'> <button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Upcoming Events</button></Link>
+   <Link to="/gallery"><button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Gallery</button></Link>
+   <Link to="/contact-us">  <button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 min-w-[160px] max-w-[1200px]  px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
     </div>
 </div>
 </div>

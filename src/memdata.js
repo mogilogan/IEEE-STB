@@ -1,14 +1,14 @@
 export const  Facmemece={
     list1:[
         {
-            name:"Dr.V.Saminadan",
-            department:"Professor, ECE",
-            mid:"99240041"
-        },
-        {
             name:"Dr. Gnanou Florence Sudha",
             department:"Professor, ECE",
             mid:"93933874"
+        },
+        {
+            name:"Dr.V.Saminadan",
+            department:"Professor & Head, ECE",
+            mid:"99240041"
         },
         {
             name:"Dr.R. Gunasundari",
@@ -38,7 +38,7 @@ export const  Facmemece={
         {
             name:"Dr.V.Vijayalakshmi",
             department:"Associate Professor",
-            mid:""
+            mid:"99238955"
         },
         {
             name:"Dr.S.Tamilselvan",
@@ -388,6 +388,106 @@ export const Stumemece ={
             name:"Mallela Satya Manikya Sahithi",
             department:"ECE",
             mid:"98184520"
+        },
+    ]
+}
+
+export const Wiemembers ={
+    list6:[
+        {
+            name:"Amuthavalli T",
+            department:"ECE",
+            mid:"99117544"
+        },
+        {
+            name:"P Divya Parameswari",
+            department:"ECE",
+            mid:"99117643"
+        },
+        {
+            name:"M Ranjitha",
+            department:"ECE",
+            mid:"99117667"
+        },
+        {
+            name:"Josephine Maryjuliana M",
+            department:"ECE",
+            mid:"99125295"
+        },
+        {
+            name:"Alamelu",
+            department:"ECE",
+            mid:"99119085"
+        },
+        {
+            name:"Dasari Anusha",
+            department:"ECE",
+            mid:"99119159"
+        },
+        {
+            name:"Yaarlagadda Sruthi",
+            department:"ECE",
+            mid:"99146587"
+        },
+        {
+            name:"Akshaya Keerthi V",
+            department:"ECE",
+            mid:"99021204"
+        },
+        {
+            name:"Jasmine Swetha V",
+            department:"ECE",
+            mid:"99021179"
+        },
+        {
+            name:"KrishnaLakshmi A",
+            department:"ECE",
+            mid:"98164268"
+        },
+        {
+            name:"Srinethe R A",
+            department:"ECE",
+            mid:"98179516"
+        },
+        {
+            name:"Sri Sai Priya",
+            department:"ECE",
+            mid:"98175228"
+        },
+        {
+            name:"Nappinnai. V",
+            department:"ECE",
+            mid:"98183300"
+        },
+        {
+            name:"Thilagavathianu V",
+            department:"ECE",
+            mid:"99043097"
+        },
+        {
+            name:"Sivasrhee",
+            department:"ECE",
+            mid:"98564188"
+        },
+        {
+            name:"Ragavi K",
+            department:"ECE",
+            mid:"99218476"
+        },
+        {
+            name:"Natramizh S",
+            department:"ECE",
+            mid:"98177000"
+        },
+        {
+            name:"Nandi Sreeharshitha",
+            department:"ECE",
+            mid:"98184310"
+        },
+        {
+            name:"Yuvarani G",
+            department:"ECE",
+            mid:"99268323"
         },
     ]
 }
