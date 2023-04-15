@@ -1,5 +1,4 @@
 import React from "react";
-import wie1 from '../assests/wie/wie1.png';
 import wie25 from '../assests/wie/wie25.webp';
 import wie3 from '../assests/wie/wie3.jpg';
 import { wiegrad } from "../../data";
@@ -9,7 +8,7 @@ const Wie = () =>{
     const {list } = wiegrad;
     return(
         <div>
-           
+            <div className="bg-[url('../public/loop6.gif')] bg-cover bg-fixed">
 
             <section
       className='my-[5px] py-10 '
@@ -60,7 +59,7 @@ Authors of the accepted papers who are unable to attend the conference in person
 
 
 
-   
+   </div>
         </div>
     )
 }

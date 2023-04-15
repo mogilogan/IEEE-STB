@@ -1,6 +1,9 @@
 import React,{useState,useRef} from "react";
 import emailjs, { init } from "@emailjs/browser";
 
+import { FaInstagram,FaYoutube } from "react-icons/fa";
+import ButtonMaitto from "./ButtonMaitto";
+
 const Contact = () =>{
   const form = useRef();
   const [toSend, setToSend] = useState({
@@ -35,6 +38,7 @@ const Contact = () =>{
 
     return(
         <div>
+          <div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
  
             <section
       className='my-[5px] '
@@ -42,12 +46,13 @@ const Contact = () =>{
 
     >
       <div className='container py-8 mx-auto'>
-        <div className=' bg-white rounded-xl    pb-12 flex flex-col    '>  
+        <div className='  rounded-xl    pb-12 flex flex-col    '>  
+        <div className="py-4">
             <p
-              className='px-12 font-bold text-xl pb-6  text-left mx-auto'
+              className='px-12 font-bold text-xl py-2 w-[300px] text-center rounded-3xl bg-yellow-400   mx-auto'
             >
                PTU IEEE STB 
-            </p>      
+            </p>    </div>  
 
      <div className="container rounded-2xl bg-slate-900 w-[90%] mx-auto">
       <p className="text-3xl pt-4 text-white text-center">CONTACT US:</p>
@@ -120,24 +125,28 @@ const Contact = () =>{
     >
 
 
-      <div className='container  rounded-3xl  mx-auto bg-blue-200'>
+      <div className='sm:max-w-[600px] rounded-3xl  mx-auto bg-blue-200'>
         
            
-      <h1 className="text-3xl pl-4 font-bold text-teal-700  text-center py-4">Follow Us</h1>
+      <h1 className="text-3xl pl-4 font-bold text-teal-700   py-4">Follow Us</h1>
 
 
 
-          <div className='flex-1 '>
-           
-            <p data-aos='fade-left' data-aos-delay='200'
-              className=' pt-4 italic	pb-10 text-justify text-lg md:px-12 text-black  mx-auto'
-            >
-
-            </p>   
-          </div>
+      <div className="items-center  justify-center">
+        <a href="#" className="text-gray-700 flex py-4 justify-center hover:text-red-500 mx-4">
+        <ButtonMaitto mailto="ieee@ptuniv.edu.in"></ButtonMaitto><span className="text-xl pt-1 pl-2">Mail Us!</span> 
+        </a>
+        <a href="https://www.youtube.com/@PTU_IEEE_SB" className="text-gray-700 flex  py-4  justify-center hover:text-red-700 mx-4">
+          <FaYoutube size={40} /><span className="text-xl pt-1 pl-2">Watch Us!</span> 
+        </a>
+        <a href="https://www.instagram.com/ptu_ieee_sb/" className="text-gray-700 py-4  flex justify-center hover:text-red-400 mx-4">
+          <FaInstagram size={40} /><span className="text-xl pt-1 pl-2">Follow Us!</span> 
+        </a>
+      </div>
        
       </div>
     </section>
+    </div>
         </div>
     )
 }

@@ -1,12 +1,13 @@
 import React from "react";
 
-import wielogo from '../assests/wie/wielogo.jpg';
 import wielogo2 from '../assests/wie/wielogo2.png';
 import wie25 from '../assests/wie/wie25.webp';
 
 const Vision = ()=>{
     return(
         <div>
+
+<div className="bg-[url('../public/loop6.gif')] bg-cover bg-fixed">
             <section
       className='my-[5px] py-10 '
       id="#About"
@@ -73,6 +74,7 @@ const Vision = ()=>{
         </div> 
       </div>
     </section>
+    </div>
         </div>
     )
 }

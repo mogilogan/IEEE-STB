@@ -30,6 +30,8 @@ const Offbrs = () =>{
     return(
         <div>
 
+<div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
+
 
             <div >
 
@@ -488,6 +490,7 @@ const Offbrs = () =>{
  
 </div>
 
+</div>
 </div>
         </div>
     )

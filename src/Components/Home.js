@@ -1,8 +1,11 @@
 import React from "react";
+import ieee from './assests/gifs/ieee.gif';
 
 const About = () =>{
     return(
         <div>
+
+<div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
             
             <section
       className='my-[5px] '
@@ -10,6 +13,11 @@ const About = () =>{
 
     >
       <div className='container py-8 mx-auto'>
+       <div>
+        <img className="mx-autos" src={ieee} />
+       </div>
+
+
         <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1 text-gray-100 md:text-lg'>
             <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-lg md:text-2xl' >
@@ -71,6 +79,8 @@ IEEE Student Branches are established at over 1,500 universities and colleges th
         </div>
       </div>
     </section>
+
+    </div>
 
 
    

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SiGmail } from "react-icons/si";
 
 const ButtonMailto = ({ mailto, label }) => {
     return (
@@ -9,8 +10,8 @@ const ButtonMailto = ({ mailto, label }) => {
                 window.location.href = mailto;
                 e.preventDefault();
             }}
-        >
-            {label}
+        ><SiGmail size={40} />
+            
         </Link>
     );
 };

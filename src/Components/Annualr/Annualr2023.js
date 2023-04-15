@@ -1,9 +1,11 @@
 import React from "react";
+import ReactLoading from 'react-loading';
 import annualr2023 from '../assests/annualr/annualr2023.pdf';
 
 const Annualr2023 = () =>{
     return(
         <div>
+          <div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
            
            <section
       className='my-[5px] '
@@ -27,12 +29,23 @@ const Annualr2023 = () =>{
             {/* <iframe height={600} width={600} className="mx-auto py-11" src={annualr2023}></iframe> */}
 
           
+            <div className='container py-8 mx-auto min-h-[600px]'>
+
+<h2 className='text-center pt-[100px] font font-black text-yellow-600  text-xl xt-md' >
+Will be Updated Soon!
+</h2>
+<ReactLoading className="mx-auto pt-6" type={"spinningBubbles"} color="#5BB9FF" height={'20%'} width={'20%'} />
+
+
+
+</div>
 
 
           
         </div>
       </div>
     </section>
+    </div>
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import mogi from '../Components/assests/mem/mogi.JPG'
 import one from './assests/gallery/1.jpg'
 import oone from './assests/gallery/2022/oone.png';
 import ooone from './assests/gallery/2023/oone.jpg';
@@ -14,6 +13,7 @@ const Gallery = () =>{
     return(
         <div>
 
+<div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
 
 <section
       className='my-[5px] py-10 '
@@ -114,7 +114,7 @@ const Gallery = () =>{
 
 
 
-        
+        </div>
         </div>
         
     )

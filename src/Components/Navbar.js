@@ -11,7 +11,7 @@ const Navbar = () =>{
         
 <>
 
-<div className="hidden pt-10 md:block">
+<div className="hidden py-10 md:block">
             <div class="flex justify-center rounded-lg text-lg" role="group">
 
            <Link to="/"><button  class="bg-white md:py-[1.37rem] text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 lg:py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>

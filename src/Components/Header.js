@@ -2,14 +2,13 @@ import React from "react";
 import ptulogo from './assests/ptulogo.png'
 
 import ptustb from "./assests/ptustb.png";
-// import ptustbm from "./assests/ptustbm.png";
 
 const Header = () =>{
     return(
         <div>
 
-        <div className="py-2 w-full bg-gradient-to-tl from-sky-400 to-indigo-700">
-            <p className="text-3xl mx-auto text-center py-2 text-purple-900"><span className="block sm:hidden">PTU - IEEE SB</span><span className="hidden sm:block">PTU - IEEE STUDENT BRANCH</span></p>
+        <div className="py-2 w-full bg-[#4596b4]">
+            <p className="text-3xl mx-auto text-center py-2 font-sans font-semibold  text-purple-900"><span className="block sm:hidden">PTU - IEEE SB</span><span className="hidden sm:block">PTU - IEEE STUDENT BRANCH</span></p>
         </div>
 
         <section class="flow-root w-full  bg-[url('../public/head.gif')] bg-fixed bg-cover bg-center">

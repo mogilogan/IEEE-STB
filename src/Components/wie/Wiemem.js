@@ -9,6 +9,7 @@ const Wiemem = ()=>{
     const {list8}=Wiepromembers
     return(
         <div>
+            <div className="bg-[url('../public/loop6.gif')] bg-cover bg-fixed">
             <p className="text-2xl font-bold text-center py-12">WIE MEMBERS</p>
             <img className="mx-auto" src={peek}/>
 
@@ -81,6 +82,7 @@ const Wiemem = ()=>{
 
 </tbody>
 </table>
+</div>
 </div>
         </div>
     )
