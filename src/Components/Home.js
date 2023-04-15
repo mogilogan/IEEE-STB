@@ -14,7 +14,7 @@ const About = () =>{
     >
       <div className='container py-8 mx-auto'>
        <div>
-        <img className="mx-autos" src={ieee} />
+        <img className="mx-auto" src={ieee} />
        </div>
 
 
