@@ -1,6 +1,5 @@
 import React from "react";
 
-import main from './assests/sb/main.webp';
 import main2 from './assests/sb/main2.jpg';
 
 import { Facmemcse,Stumemece,Facmemece,Gradmemece,Facmemeee,Facmemit } from "../memdata";
@@ -31,12 +30,45 @@ const Ptustb = () =>{
 
       <div className='container  py-8 mx-auto'>
 
+      <table class="w-full  mx-auto border-collapse rounded-2xl bg-gradient-to-br from-teal-800 to-teal-700   ">
+
+<thead className="text-center rounded-2xl bg-teal-900">
+<tr className=" py-2  text-sm text-center  text-gray-100" >
+<th className="py-2 text-lg sm:text-2xl" colSpan={3}>PTU IEEE STUDENT BRANCH DETAILS<br/><span className="sm:text-xl">IEEE Student Branch code: 28271</span></th>
+</tr>
+</thead>
+<tbody>
+
+  <tr>
+  <td class="border  py-2 px-2 text-md  text-center  text-gray-100">Details</td>
+<td class="border   md:pl-10 py-2 px-2 text-md text-center  text-gray-100">Name</td>
+<td class="border  py-2 px-2 text-md text-center   text-gray-100">Membership Number</td>
+  </tr>
+  <tr>
+  <td class="border  py-2 px-2 text-sm    text-gray-100">University Coordinator & Branch Counselor</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Dr.R.Gunasundari<br/>
+Professor, ECE
+</td>
+<td class="border  py-2 px-2 text-sm    text-gray-100">98322632</td>
+  </tr>
+  <tr>
+  <td class="border  py-2 px-2 text-sm   text-gray-100" colSpan={3}>Contact: ieee@ptuniv.edu.in</td>
+  </tr>
+</tbody>
+</table> 
+
         
       <img className="mx-auto" width={400}  src={main2}/>
+
+
+        
+
+
+
         <div data-aos='fade-right' data-aos-delay='100' className=' bg-gradient-to-br   from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1  text-gray-100 '>
             <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-xl' >
-            IEEE PTU Student Branch 
+            PTU IEEE Student Branch 
                         </h2>
             <p
               className='px-12  text-left mx-auto'
@@ -58,7 +90,7 @@ Student members have the choice to get involved in technical projects, presentat
 
 
 {/* Faculty Members ECE */}
-<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS ECE</p>
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Professional Members</p>
 
 <div data-aos='fade-down' data-aos-delay='300' className="py-11">
         <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
@@ -66,7 +98,7 @@ Student members have the choice to get involved in technical projects, presentat
 <thead className="text-center rounded-2xl bg-blue-900">
 <tr >
 <td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Designation</td>
 <td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
 </tr>
 </thead>
@@ -93,123 +125,7 @@ Student members have the choice to get involved in technical projects, presentat
 </table>
 </div>
 
-
-
-
-
-{/* Faculty Members CSE */}
-<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS ECE</p>
-
-<div data-aos='fade-down' data-aos-delay='300' className="py-11">
-        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
-
-<thead className="text-center rounded-2xl bg-blue-900">
-<tr >
-<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
-<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
-</tr>
-</thead>
-<tbody className="text-center">
-
-{list7.map((feature ,index) => {
-      // destructure feature
-      const { name,department,mid } =
-        feature;
-
-        return(
-      
-          <tr className="border hover:bg-slate-900 border-red-900">
-<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
-<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
-<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
-</tr>
-              );
-})}
-
-
-
-</tbody>
-</table>
-</div>
-
-
-
-{/* Faculty Members EEE */}
-
-<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS EEE</p>
-
-<div data-aos='fade-down' data-aos-delay='300' className="py-11">
-        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
-
-<thead className="text-center rounded-2xl bg-blue-900">
-<tr >
-<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
-<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
-</tr>
-</thead>
-<tbody className="text-center">
-
-{list2.map((feature ,index) => {
-      // destructure feature
-      const { name,department,mid } =
-        feature;
-
-        return(
-      
-          <tr className="border hover:bg-slate-900 border-red-900">
-<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
-<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
-<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
-</tr>
-              );
-})}
-
-
-
-</tbody>
-</table>
-</div>
-
-
-
-{/* Faculty Members IT */}
-
-<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">FACULTY MEMBERS IT</p>
-
-<div data-aos='fade-down' data-aos-delay='300' className="py-11">
-        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
-
-<thead className="text-center rounded-2xl bg-blue-900">
-<tr >
-<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
-<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
-</tr>
-</thead>
-<tbody className="text-center">
-
-{list3.map((feature ,index) => {
-      // destructure feature
-      const { name,department,mid } =
-        feature;
-
-        return(
-      
-          <tr className="border hover:bg-slate-900 border-red-900">
-<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
-<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
-<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
-</tr>
-              );
-})}
-
-
-
-</tbody>
-</table>
-</div>
+<p data-aos='fade-right' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Department of ECE</p>
 
 
 {/* Graduate Members ECE */}
@@ -222,7 +138,6 @@ Student members have the choice to get involved in technical projects, presentat
 <thead className="text-center rounded-2xl bg-blue-900">
 <tr >
 <td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
 <td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
 </tr>
 </thead>
@@ -237,7 +152,7 @@ Student members have the choice to get involved in technical projects, presentat
       
           <tr className="border hover:bg-slate-900 border-red-900">
 <td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
-<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+{/* <td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td> */}
 <td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
 </tr>
               );
@@ -257,7 +172,7 @@ Student members have the choice to get involved in technical projects, presentat
 <thead className="text-center rounded-2xl bg-blue-900">
 <tr >
 <td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
-<td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Department</td>
+{/* <td class="border   md:pl-10 py-2 px-2 text-sm   text-gray-100">Designation</td> */}
 <td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
 </tr>
 </thead>
@@ -265,14 +180,14 @@ Student members have the choice to get involved in technical projects, presentat
 
 {list5.map((feature ,index) => {
       // destructure feature
-      const { name,department,mid } =
+      const { name,mid } =
         feature;
 
         return(
       
           <tr className="border hover:bg-slate-900 border-red-900">
 <td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
-<td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td>
+{/* <td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td> */}
 <td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
 </tr>
               );
@@ -283,6 +198,127 @@ Student members have the choice to get involved in technical projects, presentat
 </tbody>
 </table>
 </div>
+
+
+
+
+
+{/* Faculty Members CSE */}
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Department of CSE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list7.map((feature ,index) => {
+      // destructure feature
+      const { name,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+{/* <td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td> */}
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+{/* Faculty Members EEE */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Department of EEE</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list2.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+{/* <td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td> */}
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
+{/* Faculty Members IT */}
+
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Department of IT</p>
+
+<div data-aos='fade-down' data-aos-delay='300' className="py-11">
+        <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
+
+<thead className="text-center rounded-2xl bg-blue-900">
+<tr >
+<td class="border  py-2 px-2 text-sm    text-gray-100">Name</td>
+
+<td class="border  py-2 px-2 text-sm    text-gray-100">Membership ID</td>
+</tr>
+</thead>
+<tbody className="text-center">
+
+{list3.map((feature ,index) => {
+      // destructure feature
+      const { name,department,mid } =
+        feature;
+
+        return(
+      
+          <tr className="border hover:bg-slate-900 border-red-900">
+<td class="border py-2 px-2 text-sm    text-gray-100">{name}</td>
+{/* <td class="border  md:pl-10 py-2 px-2 text-sm   text-gray-100">{department}</td> */}
+<td class="border py-2 px-2 text-sm    text-gray-100">{mid}</td>
+</tr>
+              );
+})}
+
+
+
+</tbody>
+</table>
+</div>
+
+
+
 
 
 

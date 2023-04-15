@@ -1,11 +1,23 @@
-import React from "react";
+
+import React, { useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
 import annualr2021 from '../assests/annualr/annualr2021.pdf'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 
 
 
 
 
 const Annualr2021 =()=>{
+
+    const [numPages, setNumPages] = useState(null);
+  
+    function onDocumentLoadSuccess({ numPages }) {
+      setNumPages(numPages);
+    }
 
     return(
         <div>
@@ -29,11 +41,19 @@ const Annualr2021 =()=>{
         </div>
             </div>
 
-            <iframe height={600} width={600} className="mx-auto py-11" src={annualr2021}></iframe>
+            {/* <iframe height={800} width={600} className="mx-auto py-11" src={annualr2021}></iframe> */}
 
-          
-
-
+          <p className='text-2xl text-center font-bold  pt-10'>Preview</p>
+            <div className=" min-h-screen flex items-center justify-center">
+      <div className="bg-white shadow-lg rounded-lg px2 max-h-[600px] overflow-hidden">
+        <Document file={annualr2021} onLoadSuccess={onDocumentLoadSuccess}>
+          <Page pageNumber={1} className="border-gray-400 border-2 rounded-lg" />
+        </Document>
+        <p className="text-gray-500 text-sm mt-2">Page 1 of {numPages}</p>
+      </div>
+    </div>
+      
+    
           
         </div>
       </div>

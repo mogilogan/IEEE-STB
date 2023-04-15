@@ -15,7 +15,7 @@ const Navbar = () =>{
             <div class="flex justify-center rounded-lg text-lg" role="group">
 
            <Link to="/"><button  class="bg-white md:py-[1.37rem] text-blue-500 hover:bg-blue-500 hover:text-white border border-r-0 border-blue-500 rounded-l-lg px-4 lg:py-2 mx-0 outline-none focus:shadow-outline">HOME</button></Link>
-            <Link to="/ptu-ieee-stb"><button class="bg-white  text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE STB & Members</button></Link>
+            <Link to="/ptu-ieee-stb"><button class="bg-white  text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">PTU IEEE SB & Members</button></Link>
             <Link to="off-members"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Office Bearers</button></Link>
 
     <button class="bg-white group text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">
