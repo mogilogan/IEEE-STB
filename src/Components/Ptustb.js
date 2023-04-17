@@ -276,7 +276,7 @@ Student members have the choice to get involved in technical projects, presentat
 
 {/* Student Members ECE */}
 
-<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Department of ECE</p>
+<p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Student Members - ECE</p>
 
 <div data-aos='fade-down' data-aos-delay='300' className="py-11">
         <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">

@@ -242,6 +242,21 @@ export const Stumemece ={
             mid:"98179516"
         },
         {
+            name:"Hemanth Kattoju",
+            department:"",
+            mid:"98746687"
+        },
+        {
+            name:"Yuvarani Ganja",
+            department:"",
+            mid:"99268323"
+        },
+        {
+            name:"Seevaranjinee",
+            department:"",
+            mid:"99122931s"
+        },
+        {
             name:"T C Adityaa",
             department:"",
             mid:"98174133"
