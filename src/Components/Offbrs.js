@@ -24,7 +24,7 @@ import tcadit from './assests/mem/tcadit.jpg';
 // import thacha from './assests/mem/thacha.jpg';
 import mogin from './assests/mem/mogin.jpg';
 import mohan from './assests/mem/mohan.jpg';
-import vive from './assests/mem/vive.jpg';
+import vive from './assests/mem/viven.jpg';
 
 const Offbrs = () =>{
     return(
