@@ -11,7 +11,7 @@ const Wiemem = ()=>{
         <div>
             <div className="bg-[url('../public/loop6.gif')] bg-cover bg-fixed">
             <p className="text-2xl font-bold text-center py-12">WIE MEMBERS</p>
-            <img className="mx-auto" src={peek}/>
+            {/* <img className="mx-auto" src={peek}/> */}
 
 
             <p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Professional Member</p>
