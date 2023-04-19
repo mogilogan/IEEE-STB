@@ -22,7 +22,7 @@ import shivas from './assests/mem/shivas.jpg';
 import srine from './assests/mem/srine.jpg';
 import tcadit from './assests/mem/tcadit.jpg';
 // import thacha from './assests/mem/thacha.jpg';
-import mogi from './assests/mem/mogi.jpg';
+import mogin from './assests/mem/mogin.jpg';
 import mohan from './assests/mem/mohan.jpg';
 import vive from './assests/mem/vive.jpg';
 
@@ -283,7 +283,7 @@ const Offbrs = () =>{
 </div>
 
 <div class="max-w-[250px] min-w-[250px]  bg-blue-400 lg:min-w-[300px] hover:shadow-light-neumorphism-l   mx-auto rounded-2xl  overflow-hidden ">
-  <img class="w-[200px] h-[200px] mx-auto py-2 rounded-full" src={mogi} alt="Sunset in the mountains"/>
+  <img class="w-[200px] h-[200px] mx-auto py-2 rounded-full" src={mogin} alt="Sunset in the mountains"/>
   <div class="px-8 py-4 " >
     <div class="font-bold text-center text-xl mb-2">Webmaster</div>
     <p class="text-gray-700 text-center  text-base bg-yellow-400 rounded-xl">
