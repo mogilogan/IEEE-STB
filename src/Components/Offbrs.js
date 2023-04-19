@@ -4,7 +4,7 @@ import React from "react";
 import guna from './assests/mem/guna.jpg';
 // import anantha from './assests/mem/anantha.jpg';
 import offbea from './assests/offbea.gif';
-import haris from './assests/mem/haris.png';
+import haris from './assests/mem/haris.jpg';
 import kailash from './assests/mem/kailash.jpg';
 import katto from './assests/mem/katto.jpg';
 import muriki from './assests/mem/muriki.jpg';
@@ -15,22 +15,22 @@ import pranav from './assests/mem/pranav.jpg';
 import pravee from './assests/mem/pravee.jpg';
 import saipri from './assests/mem/saipri.jpg';
 // import sanda from './assests/mem/sanda.jpg';
-import sivash from './assests/mem/sivash.png';
+import sivash from './assests/mem/sivash.jpg';
 import seevaran from './assests/mem/seevaran.jpg';
 import seshan from './assests/mem/seshan.jpg';
 import shivas from './assests/mem/shivas.jpg';
 import srine from './assests/mem/srine.jpg';
 import tcadit from './assests/mem/tcadit.jpg';
 // import thacha from './assests/mem/thacha.jpg';
-import mogi from './assests/mem/mogi.JPG';
+import mogi from './assests/mem/mogi.jpg';
 import mohan from './assests/mem/mohan.jpg';
-import vive from './assests/mem/vive.JPG';
+import vive from './assests/mem/vive.jpg';
 
 const Offbrs = () =>{
     return(
         <div>
 
-<div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.PNG')] bg-cover bg-fixed">
+<div className="bg-[url('https://static.igem.org/mediawiki/2021/7/79/T--UPF_Barcelona--omegaA_anim.jpg')] bg-cover bg-fixed">
 
 
             <div >

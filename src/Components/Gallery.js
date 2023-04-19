@@ -1,6 +1,6 @@
 import React from "react";
 import one from './assests/gallery/1.jpg'
-import oone from './assests/gallery/2022/oone.png';
+import oone from './assests/gallery/2022/oone.jpg';
 import ooone from './assests/gallery/2023/oone.jpg';
 import { motion } from 'framer-motion';
 

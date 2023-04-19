@@ -15,6 +15,8 @@ const Wiemem = ()=>{
 
 
             <p data-aos='fade-left' data-aos-delay='200' className="py-2 text-3xl text-center font-semibold text-red-700">Professional Member</p>
+            <p data-aos='fade-left' data-aos-delay='200' className="py-2 text-2xl text-center font-semibold text-red-900">WIE Chairperson</p>
+
 
             <div data-aos='fade-down' data-aos-delay='300' className="pb-11 pt-2 container mx-auto">
         <table class="w-full  mx-auto border-collapse rounded-2xl  bg-gradient-to-br  from-blue-900 via-slate-600 to-blue-500 ">
