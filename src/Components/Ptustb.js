@@ -182,7 +182,7 @@ Student members have the choice to get involved in technical projects, presentat
 
 {list2.map((feature ,index) => {
       // destructure feature
-      const { name,department,mid } =
+      const { name,mid } =
         feature;
 
         return(
@@ -221,7 +221,7 @@ Student members have the choice to get involved in technical projects, presentat
 
 {list3.map((feature ,index) => {
       // destructure feature
-      const { name,department,mid } =
+      const { name,mid } =
         feature;
 
         return(
@@ -257,7 +257,7 @@ Student members have the choice to get involved in technical projects, presentat
 
 {list4.map((feature ,index) => {
       // destructure feature
-      const { name,department,mid } =
+      const { name,mid } =
         feature;
 
         return(

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactLoading from 'react-loading';
-import annualr2023 from '../assests/annualr/annualr2023.pdf';
+// import annualr2023 from '../assests/annualr/annualr2023.pdf';
 
 const Annualr2023 = () =>{
     return(

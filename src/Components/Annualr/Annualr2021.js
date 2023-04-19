@@ -15,15 +15,9 @@ import annualr2023 from '../assests/annualr/annualr2023.pdf'
 const Annualr2021 =()=>{
 
   const docs = [
-    
     { uri: require("../assests/annualr/annualr2021.pdf") }, // Local File
   ];
 
-    const [numPages, setNumPages] = useState(null);
-  
-    function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
-    }
 
     return(
         <div>

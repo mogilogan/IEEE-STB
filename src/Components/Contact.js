@@ -1,17 +1,11 @@
 import React,{useState,useRef} from "react";
-import emailjs, { init } from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 import { FaInstagram,FaYoutube } from "react-icons/fa";
 import ButtonMaitto from "./ButtonMaitto";
 
 const Contact = () =>{
   const form = useRef();
-  const [toSend, setToSend] = useState({
-    from_name: '',
-    to_name: '',
-    message: '',
-    reply_to: '',
-  });
 
   const sendEmail = (e) => {
     e.preventDefault();
