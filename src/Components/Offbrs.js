@@ -22,7 +22,7 @@ import shivas from './assests/mem/shivas.jpg';
 import srine from './assests/mem/srine.jpg';
 import tcadit from './assests/mem/tcadit.jpg';
 // import thacha from './assests/mem/thacha.jpg';
-
+import mogi from './assests/mem/mogi.jpg';
 import mohan from './assests/mem/mohan.jpg';
 import vive from './assests/mem/vive.jpg';
 
