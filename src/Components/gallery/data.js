@@ -19,6 +19,18 @@ import thirteen from '../assests/gallery/2022/thirteen.jpg';
 import three from '../assests/gallery/2022/three.jpg';
 import twelve from '../assests/gallery/2022/twelve.jpg';
 import two from '../assests/gallery/2022/two.jpg';
+import new1 from '../assests/gallery/2022/new1.jpg';
+import new2 from '../assests/gallery/2022/new2.jpg';
+import new3 from '../assests/gallery/2022/new3.jpg';
+import new4 from '../assests/gallery/2022/new4.jpg';
+import new5 from '../assests/gallery/2022/new5.jpg';
+import new6 from '../assests/gallery/2022/new6.jpg';
+import new7 from '../assests/gallery/2022/new7.jpg';
+import new8 from '../assests/gallery/2022/new8.jpg';
+import new9 from '../assests/gallery/2022/new9.jpg';
+import new10 from '../assests/gallery/2022/new10.jpg';
+
+
 
 //Imports for gallery 2023
 import eight3 from '../assests/gallery/2023/eight.jpg';
@@ -56,6 +68,46 @@ import oeight3 from '../assests/gallery/2023/oeight.jpg';
 
 export const Gallery22 ={
     gallery2:[
+        {
+            photo:new1,
+            
+        },
+        {
+            photo:new2,
+            
+        },
+        {
+            photo:new3,
+            
+        },
+        {
+            photo:new4,
+            
+        },
+        {
+            photo:new5,
+            
+        },
+        {
+            photo:new6,
+            
+        },
+        {
+            photo:new7,
+            
+        },
+        {
+            photo:new8,
+            
+        },
+        {
+            photo:new9,
+            
+        },
+        {
+            photo:new10,
+            
+        },
         {
             photo:one,
             
