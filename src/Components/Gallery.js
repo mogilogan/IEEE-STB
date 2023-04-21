@@ -53,7 +53,7 @@ const Gallery = () =>{
     >
       <div className='container  rounded-3xl  mx-auto bg-[#a0daf6]'>
            
-      <h1 className="text-3xl pl-4 font-bold text-teal-800  text-center  py-4">ECE 2021 Gallery</h1>
+      <h1 className="text-3xl pl-4 font-bold text-teal-800  text-center  py-4">ECE 2022 Gallery</h1>
         <div className='    min-h-[250px] px-12  flex flex-col text-center xl:flex-row xl:items-center xl:      '>
            
         <div className='flex-1' data-aos='zoom-in-left'>
@@ -85,7 +85,7 @@ const Gallery = () =>{
     >
       <div className='container  rounded-3xl  mx-auto bg-[#a0daf6]'>
            
-      <h1 className="text-3xl pl-4 font-bold text-teal-800  text-center  pt-4">ECE 2021 Gallery</h1>
+      <h1 className="text-3xl pl-4 font-bold text-teal-800  text-center  pt-4">ECE 2023 Gallery</h1>
         <div className='    min-h-[250px] px-12  flex flex-col text-center xl:flex-row xl:items-center xl:      '>
            
         <div className='flex-1' data-aos='zoom-in-left'>

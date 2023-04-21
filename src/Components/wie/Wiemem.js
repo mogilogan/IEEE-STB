@@ -1,5 +1,5 @@
 import React from "react";
-import peek from '../assests/wie/peek.png';
+// import peek from '../assests/wie/peek.png';
 
 import { Wiemembers,Wiepromembers } from "../../memdata";
 
