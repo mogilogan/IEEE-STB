@@ -1,10 +1,13 @@
 import React from "react";
 import ButtonMaitto from './ButtonMaitto'
 import { FaYoutube, FaInstagram } from 'react-icons/fa';
+import { useSearchParams } from "react-router-dom";
 
 
 
 const Footer =()=>{
+
+  const [searchParams, setSearchParams] = useSearchParams();
 return(
 
     <div>
@@ -40,6 +43,7 @@ return(
       
       > PTU IEEE SB</a
     >
+    <span className="text-[20px] text-blue-200"><br/>{searchParams.get('type')}</span>
   </div>
 
     </div>

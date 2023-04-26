@@ -16,7 +16,7 @@ const Gallery2022 = () =>{
             gallery 2022:
             
 
-            <Carousel className="pt-[30px] w-[60%] mx-auto" infiniteLoop>
+            <Carousel className="pt-[30px] w-[60%] mx-auto" dynamicHeight={true} infiniteLoop>
                 {gallery2.map((feature ,index) => {
       // destructure feature
       const { photo } =

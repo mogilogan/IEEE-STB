@@ -83,13 +83,13 @@ const Navbar = () =>{
       </button></Link>
       <Link to="/upcoming-events"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 outline-none focus:shadow-outline">Upcoming Events</button></Link>
     <Link to="/gallery"><button  class="bg-white md:py-[1.37rem] text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 lg:py-2 mx-0 outline-none focus:shadow-outline">Gallery</button></Link>
-    <Link to="/contact-us"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
+    <Link to="/contact-us?type=Website%20designed%20by%20MOGINDER.E,%20ECE%20-%203rd%20Year"><button  class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
   </div>
         </div>
         <div className="block md:hidden pt-10">
 {showSidebar ? (
  <div className="bg-slate-900">  <button
-    className="flex  text-4xl text-white  items-center cursor-pointer fixed top-10 mx-auto right-[106px] sm:right-40 z-[2002]"
+    className="flex  text-4xl text-white  items-center cursor-pointer fixed top-10 mx-auto right-[106px] sm:right-40 z-[2003]"
     onClick={() => setShowSidebar(!showSidebar)}
   >
     x
@@ -110,7 +110,7 @@ const Navbar = () =>{
 )}
 
 <div
-  className={`top-0 right-0 w-[50vw] bg-blue-400  p-10 pl-15 text-white fixed h-full z-[2001]  ease-in-out duration-300 ${
+  className={`top-0 right-0 w-[50vw] bg-blue-400  p-10 pl-15 text-white fixed h-full z-[2002]  ease-in-out duration-300 ${
     showSidebar ? "translate-x-0 " : "translate-x-full"
   }`}
 >
@@ -182,7 +182,7 @@ const Navbar = () =>{
           </ul></button>
    <Link to='/upcoming-events'> <button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Upcoming Events</button></Link>
    <Link to="/gallery"><button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500  px-4 py-2 mx-0 min-w-[160px] max-w-[1200px] outline-none focus:shadow-outline">Gallery</button></Link>
-   <Link to="/contact-us">  <button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 min-w-[160px] max-w-[1200px]  px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
+   <Link to="/contact-us?type=Website%20designed%20by%20MOGINDER.E,%20ECE%20-%203rd%20Year">  <button onClick={()=>{setShowSidebar(!showSidebar)}} class="bg-white text-blue-500 hover:bg-blue-500 hover:text-white border border-l-0 border-blue-500 min-w-[160px] max-w-[1200px]  px-4 py-2 mx-0 outline-none focus:shadow-outline">Contact Us</button></Link>
     </div>
 </div>
 </div>
